@@ -1,0 +1,34 @@
+{
+  "name": "Koa2_test",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "server.js",
+  "author": "Dolopihtis",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-views": "^2.1.0",
+    "ejs": "^2.5.7",
+    "jade": "^1.11.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-cookie": "^1.0.0",
+    "koa-favicon": "^2.0.0",
+    "koa-logger": "^3.0.1",
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.5.0",
+    "koa-simple-session": "^1.0.3",
+    "koa-static": "^4.0.1",
+    "koa-views": "^6.0.2",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cookie-session": "0.0.1",
+    "mongoose": "^4.11.10",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-rc.3"
+  },
+  "scripts": {
+    "run_nodemon": "nodemon server.js 3000",
+    "run_log": "node server.js 3000 1>>log.txt 2>>&1",
+    "debug": "nodemon --debug-brk:3001 server.js 3000"
+  }
+}
